@@ -1,0 +1,26 @@
+#######
+# NOTE: This file contains packages that are needed / nice to have
+# for DEVELOPMENT of pipwrapper.
+# The 'pipwrapper' package itself, does NOT require any external packages
+# from PyPi to function.
+#######
+
+# Packages for packaging/distributing the module
+setuptools
+wheel
+twine
+semver
+
+# Tool + Library for minification of Python scripts
+python-minifier
+
+# Unit Testing
+pytest
+pytest-cov
+pytest-asyncio
+coverage
+codecov
+
+# General tools and libraries that help with development
+jupyter
+privex-helpers
